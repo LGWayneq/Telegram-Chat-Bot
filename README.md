@@ -15,6 +15,6 @@ The bot is also able to send a randomly selected picture from a "Pics" folder in
 
 
 <h2>Bot Functions</h2>
-/pics &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Bot will send a random photo<br>
-/sticker     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Bot will send a random sticker<br>
+/pics &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Bot will send a random photo<br>
+/sticker     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Bot will send a random sticker<br>
 /help or /start      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp- Show the help message<br>
