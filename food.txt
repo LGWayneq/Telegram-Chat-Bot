@@ -1,0 +1,16 @@
+food
+eat
+yum
+noodle
+rice
+cake
+bbt
+pasta
+bake
+spaghetti
+chicken
+beef
+pork
+macaron
+bbq
+hotpot
