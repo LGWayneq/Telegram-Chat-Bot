@@ -3,3 +3,4 @@ Here is a summary of my functions:
 /pics       - I will send you a random photo
 /sticker     - I will send you a random sticker
 /help or /start      - I will show this message again
+Hope you enjoy chatting with me!
