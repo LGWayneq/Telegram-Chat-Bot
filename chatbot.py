@@ -19,7 +19,7 @@ APP_NAME = ""
 bot = Bot(TOKEN)
 
 replylist = ["Love you <3", "You are my cutie pie"]
-keyboardlist = ["/ourpics","/sticker","/help"]
+keyboardlist = ["/pics","/sticker","/help"]
 
 picspath = pathlib.Path.cwd().joinpath('Pics')
 picslist = [x for x in picspath.glob("*")]
@@ -52,7 +52,7 @@ def reply(update, context):
         bot.send_message(chat_id=chatid, text = replylist[randint(0,len(replylist)-1)], reply_markup = createKeyboard())    
         
 
-def ourpics(update, context):
+def pics(update, context):
     photoidx = randint(0,len(picslist)-1)
     update.message.reply_photo(photo=open("{}".format(picslist[photoidx]), 'rb'), reply_markup = createKeyboard())
     chatid = update.message.chat_id
@@ -85,7 +85,7 @@ def main():
 
     dp.add_handler(CommandHandler(["start","help"], start))
     dp.add_handler(CommandHandler("sticker", sticker))
-    dp.add_handler(CommandHandler(["photo", "photos", "pics", "pic", "ourpics", "ourpic"], ourpics))
+    dp.add_handler(CommandHandler(["photo", "photos", "pics", "pic"], pics))
  
 
     dp.add_handler(MessageHandler(Filters.text, reply))
