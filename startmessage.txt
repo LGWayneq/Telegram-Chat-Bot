@@ -1,8 +1,5 @@
-Hi Babe! You can talk to this bot whenever you want hehe
-You can send anything you wanttt
-/ourpics will send you photos of us tgt hehe
-/ziweipics will send you pics of me
-/pingupat will send you the pingu pat pat sticker
-/pingu will send you a random pingu sticker
-/buttshake will send you the buttshake sticker
+Hi! I will reply to all your messages! Just send anything you want!
+Here is a summary of my functions:
+/pics will send you photos of us tgt hehe
+/sticker will send you a random sticker
 /help or /start will show this message again
