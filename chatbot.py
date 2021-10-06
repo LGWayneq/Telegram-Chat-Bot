@@ -18,7 +18,7 @@ TOKEN = ""
 APP_NAME = ""
 bot = Bot(TOKEN)
 
-replylist = ["Love you <3", "You are my cutie pie"]
+replylist = ["I am feeling good today!", "Sounds good!"]
 keyboardlist = ["/pics","/sticker","/help"]
 
 picspath = pathlib.Path.cwd().joinpath('Pics')
@@ -46,10 +46,7 @@ def reply(update, context):
     chatmessage = update.message.text
     if any(x in chatmessage for x in foodlist):
         update.message.reply_sticker(sticker = stickerdata.fooddanceid)
-        bot.send_message(chat_id = chatid, text = "yummy in my tummy", reply_markup = createKeyboard())
-    else:
-        penguin(update,context)
-        bot.send_message(chat_id=chatid, text = replylist[randint(0,len(replylist)-1)], reply_markup = createKeyboard())    
+        bot.send_message(chat_id = chatid, text = "You are making me hungryy", reply_markup = createKeyboard())    
         
 
 def pics(update, context):
